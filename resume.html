@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Main</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrapcss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<!--RESUME PAGE -->
+<!--Start off with a nav bar -->
+<nav class="navbar navbar-default">
+  <div class="navContainer">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="main.html">Nicole's Website</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="main.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">See More<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="lists.html">Lists</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="form.html">Form</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Just For Fun</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button id="submit" type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--End Nav Bar-->
+
+
+<div class="jumbotron bg-1 text-center container-fluid">
+<h1>Resume</h1>
+
+</div>
+
+<div>
+  <div class="bg-2 text-center">
+  <h2 style="color: #dddfd4">Nicole Warden</h2>
+<p><b>(417) 619-0128 <span class="glyphicon glyphicon-earphone"></span> <br>
+<a>nicole.j.warden@gmail.com</a> <span class="glyphicon glyphicon-envelope"></span><br>
+</div>
+<br>
+<div class="container">
+<h3>EDUCATION</h3>
+<p> 
+Missouri State University<br>
+Aug 2012-May 2016<br>
+● Bachelor of Science in Cultural & Regional Geography -- 3.97 GPA (4.0 Scale)<br>
+● Master’s of Science in Geospatial Science (Currently Pursuing)
+</p>
+</div>
+
+<br> 
+<div class="container">
+  <h3>EXPERIENCES</h3>
+  <p>Bear Service Team – President<br>    
+Missouri State University <br>
+ January 2014 – May 2015 <br>
+● Organizing large volunteer events designed to connect students with the community through volunteerism<br>
+● Expanded and continued relationships between Missouri State University and non-profit organizations in Springfield<br>
+● Created rewarding community involvement experiences for Missouri State students, faculty, staff, and alumni<br>
+<br>Live Action Society - Member<br>
+Missouri State University<br>
+August 2012-Present
+● Organize and run team-based activities to develop member leadership and teamwork<br>
+● Attracted multiple students from campuses in GA and OK to participate in our Humans vs. Zombies event<br>
+</p>
+</div>
+
+<br>
+<div class="container">
+  <h3>PROFESSIONAL DEVELOPMENT</h3>
+  <p>
+Research Assistant <br>
+Geography, Geology, and Planning Department – Missouri State University<br>                                                            January 2016-Present<br>
+● Developing and implementing a grant-funded research project to improve health care and transportation access in Springfield, MO<br>
+● Use outcomes of project to create positive change and raise awareness for social issues in an at-risk neighborhood in Springfield.<br>
+</p>
+</div>
+
+<!--Scripts below here -->
+
+<script>
+document.getElementById("submit").onclick = function() 
+{myFunction()};
+
+function myFunction() {
+    alert("This button doesn't do anything yet...");
+}
+</script>
+</body>
+</html>

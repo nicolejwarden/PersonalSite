@@ -1,0 +1,103 @@
+ /*Background Colors*/
+  .bg-1 { 
+      background-color: #3fb0ac;
+      color: #dddfd4;
+      padding: 10px;}
+
+  .bg-2 { 
+  	background-color: #173e43;
+      color: #dddfd4;
+      padding: 20px;
+      padding-bottom: 20px;
+      }
+
+  body
+  {
+  	background-color: #8585ad;
+    padding-bottom: 50px;
+  }
+  .container{
+      padding: 80px 120px;
+      background-color: #DDFA96;
+      color: black;
+      border-style: solid;
+      border-width: 5px;
+
+  }
+
+.table-title
+{
+  padding:10px;
+  background-color: blue;
+}
+
+.container-fluid
+{
+  padding: 80px 120px;
+  border: 1px;
+  border-color: black;
+}
+
+.navContainer
+{
+  padding: 5px;
+}
+
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+      border-radius: 5px;
+  }
+
+  ol li 
+  {
+  	color: black;
+  }
+
+  h2
+  {
+  	color: black;
+  }
+
+  img
+  {
+    max-width:100%
+  }
+
+.main-image:hover
+{
+  opacity: 0.2;
+  transition: .5s ease;
+  background-color: #DDFA96;
+  border: 1px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .navbar {
+        height: auto;
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  .nav-item {
+    width:100%;
+    float:none;
+  }
+
+.icon {
+    display: none;
+}
+
+  * {
+    box-sizing: border-box;
+}
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+

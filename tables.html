@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tables</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrapcss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<!--TABLE PAGE -->
+<!--Start off with a nav bar -->
+<nav class="navbar navbar-default">
+  <div class="navContainer">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="main.html">Nicole's Website</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="main.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">See More<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="tables.html">Tables</a></li>
+            <li><a href="lists.html">Lists</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="form.html">Form</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Just For Fun</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button id="submit" type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--End Nav Bar-->
+
+<div class="bg-1 table-title">
+<h1>My favorite shows</h1>
+</div>
+
+
+<div class="table_responsive bg-2">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name of Show</th>
+        <th>Year Released</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Game of Thrones</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>Parks and Recreation</td>
+        <td>2009</td>
+      </tr>
+      <tr>
+        <td>It's Always Sunny in Philadelphia</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>WWE Raw</td>
+        <td>1993</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+<br>
+<div class="bg-1 table-title">
+<h1>My favorite books</h1>
+</div>
+
+
+<div class="table_responsive bg-2">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name of Book</th>
+        <th>Author</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>The Hobbit</td>
+        <td>JRR Tolkien</td>
+      </tr>
+      <tr>
+        <td>On The Road</td>
+        <td>Jack Kerouac</td>
+      </tr>
+      <tr>
+        <td>Cat's Cradle</td>
+        <td>Kurt Vonnegut</td>
+      </tr>
+      <tr>
+        <td>Harry Potter</td>
+        <td>JK Rowling</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<!--Scripts below here -->
+
+<script>
+document.getElementById("submit").onclick = function() 
+{myFunction()};
+
+function myFunction() {
+    alert("This button doesn't do anything yet...");
+}
+</script>
+
+</body>
+</html>

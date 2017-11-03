@@ -25,18 +25,21 @@
 
   }
 
+  .container-fluid
+{
+  padding: 80px 120px;
+  border: 1px;
+  border-color: black;
+}
+
+
+ /*Styling for tables*/ 
 .table-title
 {
   padding:10px;
   background-color: blue;
 }
 
-.container-fluid
-{
-  padding: 80px 120px;
-  border: 1px;
-  border-color: black;
-}
 
 .navContainer
 {
@@ -74,6 +77,44 @@
   border: 1px;
 }
 
+/*Resume page graph CSS*/
+svg
+{
+border:solid;
+}
+.bar {
+  fill: #aaa;
+  height: 21px;
+  transition: fill .3s ease;
+  cursor: pointer;
+  padding-bottom: 10px;
+  
+  text {
+    fill: #555;
+  }
+}
+
+.chart:hover,
+.chart:focus {
+  .bar {
+    fill: #aaa;
+  }
+}
+
+.bar:hover,
+.bar:focus {
+  fill: red !important;
+  
+  text {
+    fill: red;
+  }
+}
+
+
+
+
+
+/*Media queries*/
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .navbar {

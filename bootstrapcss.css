@@ -25,6 +25,11 @@
 
   }
 
+h1
+{
+ color:black;
+}
+
   .container-fluid
 {
   padding: 80px 120px;
